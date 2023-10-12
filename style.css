@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Fjalla+One&family=Jost:ital,wght@1,300&family=Montserrat:wght@100&family=Noto+Sans:wght@100&family=Oswald&family=Outfit:wght@500&family=Poppins:wght@300&family=Red+Hat+Display:wght@500&family=Roboto:ital@1&display=swap');
+
+/* 
+
+font-family: 'Jost', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+}
+
+/* NAVBAR STARTS HERE */
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(217, 33, 217); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+
+/* TEXT SECTION FOR NAVBAR */
+
+.logo-name h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+/* ICONS SECTION FOR NAVBAR */
+
+.infinity-logo i {
+    font-size: 50px;
+}
+
+.bun-icon i {
+    font-size: 40px;
+}
+
+/* ABOUT SECTION */
+.about-section {
+    width: 100%;
+    height: 150px;
+    /* background-color: aquamarine; */
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid black;
+}
+
+/* TEXT  FOR ABOUT SECTION  */
+.first-line {
+    padding-top: 30px;
+}
+
+.first-line h1 {
+    font-family: 'Outfit', sans-serif;
+}
+
+.second-line h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+
+/* COMPONENTS */
+.components {
+    width: 100%;
+    height: 600px;
+    /* background-color: aqua; */
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* COMPONENT BOX 1 */
+.compo-box-1 {
+    height: 90%;
+    width: 30%;
+    background-color: pink;
+}
+
+.compo-1-image {
+    width: 100%;
+    height: 50%;
+    /* background-image: url(./assets/Seedhe-Maut-NATKHAT.webp); */
+    overflow: hidden;
+}
+.compo-1-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.compo-1-image img:hover {
+    scale: 1.1;
+    transition: all ease-in-out 0.2s;
+}
+
+.compo-1-heading {
+    width: 100%;
+    height: 10%;
+    /* background-color: grey; */
+    margin-top: 20px;
+}
+
+.compo-1-heading h1 {
+    font-family: 'Outfit', sans-serif;
+    padding-top: 5px;
+    font-weight: 400;
+}
+
+.compo-1-paragraph {
+    width: 100%;
+    height: 30%;
+    /* background-color: grey; */
+    margin-top: 20px;
+}
+
+
+/* COMPONENT BOX 2 */
+
+.compo-box-2 {
+    height: 90%;
+    width: 30%;
+    background-color: pink;
+}
+
+.compo-box-3 {
+    height: 90%;
+    width: 30%;
+    background-color: pink;
+}
