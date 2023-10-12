@@ -140,7 +140,7 @@ body {
 
 .compo-1-image img:hover {
     scale: 1.1;
-    transition: all 0.2s ease-out 0.1s;
+    transition: all 0.2s ease-out 0.2s;
 }
 
 .compo-1-heading {
@@ -204,6 +204,11 @@ body {
     width: 100%;
     height: 50%;
     overflow: hidden;
+}
+
+.compo-2-image:hover {
+    border-radius: 10px;
+    transition: all ease-in-out 0.2s;
 }
 
 .compo-2-image img {
@@ -279,6 +284,11 @@ body {
     overflow: hidden;
 }
 
+.compo-3-image:hover {
+    border-radius: 10px;
+    transition: all ease-in-out 0.2s;
+}
+
 .compo-3-image img {
     width: 100%;
     height: 100%;
@@ -337,3 +347,6 @@ body {
     color: white;
     transition: all ease-in-out 0.2s;
 }
+
+/* ABOUT XXXTENTACION */
+
