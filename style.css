@@ -423,8 +423,18 @@ body {
 .rapper-discrip-about {
     width: 80%;
     height: 350px;
-    background-color: grey;
+    /* background-color: grey; */
     margin-bottom: 20px;
+    
+}
+
+.rapper-discrip-about p {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.rapper-discrip-about span {
+    color: red;
 }
 
 .rapper-discpr-button {
@@ -440,10 +450,18 @@ body {
     font-weight: 300;
     background: transparent;
     border: 0.5px solid black;
+    cursor: pointer;
 }
+
+
 
 .rapper-discpr-button button:hover {
     background: black;
     color: white;
     transition: all ease-in-out 0.2s;
+}
+
+/* TEMPORARY SPACE */
+.temporay-space {
+    height: 100vh;
 }
