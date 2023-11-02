@@ -380,6 +380,7 @@ body {
     /* background-color: pink; */
     overflow: hidden;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .rapper-image:hover {
@@ -464,14 +465,14 @@ body {
 /* FOOTER */
 .footer {
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-color: black;
     color: white;
     font-family:'Outfit', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     text-align: center;
     border-radius: 10px 10px 0px 0px;
 }
@@ -480,11 +481,17 @@ body {
     color: white;
 }
 
+.social-meadia-icons i {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
 .policy {
     width: 50%;
     height: 40px;
     /* background-color: darkgreen; */
     font-size: 20px;
+    margin-top: 20px;
 }
 
 .copywrite {
